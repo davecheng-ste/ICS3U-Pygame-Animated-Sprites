@@ -38,7 +38,7 @@ whale_rect = whale_frames[0].get_rect()
 whale_rect.centerx = WIDTH // 2
 whale_rect.centery = HEIGHT // 2
 
-whale_frame_duration = 200  # Frame duration in millseconds (ms)
+whale_frame_duration = 250  # Frame duration in millseconds (ms)
 whale_frame_current = 0
 whale_frame_last_change_time = pygame.time.get_ticks()
 
