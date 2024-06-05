@@ -31,7 +31,7 @@ whale_frame_width = 102
 whale_frames = [
     whale_sprite_sheet.subsurface(pygame.Rect(0, 40, whale_frame_width, whale_frame_height)),
     whale_sprite_sheet.subsurface(pygame.Rect(0, 120, whale_frame_width, whale_frame_height)),
-    whale_sprite_sheet.subsurface(pygame.Rect(0, 220, whale_frame_width, whale_frame_height)),
+    whale_sprite_sheet.subsurface(pygame.Rect(0, 220, whale_frame_width, whale_frame_height))
 ]
 
 whale_rect = whale_frames[0].get_rect()
@@ -68,7 +68,6 @@ while running:
     screen.blit(ocean_background, (0, 0))
     screen.blit(whale_frames[whale_frame_current], whale_rect)
     
-
     # Update display
     pygame.display.flip()
     clock.tick(30)
